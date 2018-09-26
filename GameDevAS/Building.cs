@@ -21,6 +21,6 @@ namespace GameDevAS
 
         abstract public bool isDestoryed();
         abstract public string toString();
-        abstract public void Save();
+        
     }
 }

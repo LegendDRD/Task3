@@ -28,3 +28,13 @@ C:\Users\User\OneDrive\Visual studio\GameDevAS\GameDevAS\obj\Debug\GameDevAS.csp
 C:\Users\User\OneDrive\Visual studio\GameDevAS\GameDevAS\obj\Debug\GameDevAS.csproj.CoreCompileInputs.cache
 C:\Users\User\OneDrive\Visual studio\GameDevAS\GameDevAS\obj\Debug\GameDevAS.exe
 C:\Users\User\OneDrive\Visual studio\GameDevAS\GameDevAS\obj\Debug\GameDevAS.pdb
+C:\Users\User\OneDrive\Visual studio\Task1GameDev\Task3\GameDevAS\GameDevAS\obj\Debug\GameDevAS.csprojResolveAssemblyReference.cache
+C:\Users\User\OneDrive\Visual studio\Task1GameDev\Task3\GameDevAS\GameDevAS\obj\Debug\GameDevAS.Form1.resources
+C:\Users\User\OneDrive\Visual studio\Task1GameDev\Task3\GameDevAS\GameDevAS\obj\Debug\GameDevAS.Properties.Resources.resources
+C:\Users\User\OneDrive\Visual studio\Task1GameDev\Task3\GameDevAS\GameDevAS\obj\Debug\GameDevAS.csproj.GenerateResource.Cache
+C:\Users\User\OneDrive\Visual studio\Task1GameDev\Task3\GameDevAS\GameDevAS\obj\Debug\GameDevAS.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Visual studio\Task1GameDev\Task3\GameDevAS\GameDevAS\obj\Debug\GameDevAS.exe
+C:\Users\User\OneDrive\Visual studio\Task1GameDev\Task3\GameDevAS\GameDevAS\obj\Debug\GameDevAS.pdb
+C:\Users\User\OneDrive\Visual studio\Task1GameDev\Task3\GameDevAS\GameDevAS\bin\Debug\GameDevAS.exe.config
+C:\Users\User\OneDrive\Visual studio\Task1GameDev\Task3\GameDevAS\GameDevAS\bin\Debug\GameDevAS.exe
+C:\Users\User\OneDrive\Visual studio\Task1GameDev\Task3\GameDevAS\GameDevAS\bin\Debug\GameDevAS.pdb

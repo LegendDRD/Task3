@@ -29,7 +29,7 @@ namespace GameDevAS
         abstract public Unit UnitDistance(Unit[] units);
         abstract public bool isDead();
         abstract public string ToString();
-        abstract public void Save();
+       
 
     }
 }
