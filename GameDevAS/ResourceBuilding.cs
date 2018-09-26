@@ -89,10 +89,7 @@ namespace GameDevAS
            ResRemaing = ResRemaing-Respertick;
 
         }
-        public override void Save()
-        {
-
-        }
+      
 
     }
 }

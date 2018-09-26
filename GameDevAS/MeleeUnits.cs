@@ -233,10 +233,6 @@ namespace GameDevAS
 
             return "Name: " + Name + "\r\nFaction: " + symbol + "\r\nDamage: " + attack + "\r\nAttackRange: " + attackRange + "\r\nHealth: " + health + "\r\nSpeed: " + speed + "\r\nY postion: " + Xpos + "\r\nX postion: " + Ypos;
         }
-        public override void Save()
-        {
-
-
-        }
+       
     }
 }

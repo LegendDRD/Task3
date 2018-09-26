@@ -230,10 +230,7 @@ namespace GameDevAS
             }
 
         }
-        public override void Save()
-        {
-
-        }
+       
         public override string ToString()// this gets all the imformation to display it 
         {
 
