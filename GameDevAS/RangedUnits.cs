@@ -61,7 +61,7 @@ namespace GameDevAS
 
 
 
-        public RangedUnits(int X_position, int Y_position, int Health, int Attack, int Speed, int Attack_range, int Faction, string sym, string name)
+        public RangedUnits(int X_position, int Y_position, int Health, int Attack, int Speed, int Attack_range, int Faction, string sym, string name)// this constructor add all the imforamtion that is passed through to fill out the units imformations
         {
             Xpos = X_position;
             Ypos = Y_position;
@@ -76,7 +76,7 @@ namespace GameDevAS
         }
 
 
-        public override void NewMovePos(Direction direction)
+        public override void NewMovePos(Direction direction) // this finds out which direction the unit will move
         {
             switch (direction)
             {
@@ -104,7 +104,7 @@ namespace GameDevAS
 
 
         }
-        public override void Combat(Unit u)
+        public override void Combat(Unit u) // this does the combt for the unit
         {
             if (u.GetType() == typeof(MeleeUnits))
             {
@@ -142,7 +142,7 @@ namespace GameDevAS
             }
             return false;
         }
-        public override Unit UnitDistance(Unit[] units)
+        public override Unit UnitDistance(Unit[] units) // this finds out the closest unit to this unit of all the units
         {
             Unit closest = this;
             int closestDist = 50;
@@ -189,7 +189,7 @@ namespace GameDevAS
 
         }
         
-        private int DistanceTo(Unit u)
+        private int DistanceTo(Unit u) // this finds the distance of a unit from this unit
         {
             if (u.GetType() == typeof(RangedUnits))
             {
@@ -202,7 +202,7 @@ namespace GameDevAS
                 return 0;
             }
         }
-        public Direction Directionto(Unit u)
+        public Direction Directionto(Unit u) // this changes the directions of the unit
         {
             if (u.GetType() == typeof(RangedUnits))
             {
@@ -234,7 +234,7 @@ namespace GameDevAS
         {
 
         }
-        public override string ToString()
+        public override string ToString()// this gets all the imformation to display it 
         {
 
             return "Name: "+name+"\r\nFaction: " + symbol + "\r\nDamage: " + attack + "\r\nAttackRange: " + attackRange + "\r\nHealth: " + health + "\r\nSpeed: " + speed + "\r\nY postion: " + Xpos + "\r\nX postion: " + Ypos;

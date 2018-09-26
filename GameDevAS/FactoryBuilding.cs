@@ -60,7 +60,7 @@ namespace GameDevAS
             set { Symbol = value; }
         }
 
-        public FactoryBuilding(int X_position, int Y_position, int Health, int Faction, string symbol, int unita, int pr,int spawn )
+        public FactoryBuilding(int X_position, int Y_position, int Health, int Faction, string symbol, int unita, int pr,int spawn)// this constructor add all the imforamtion that is passed through to fill out the units imformations
         {
             Xpos = X_position;
             Ypos = Y_position;
@@ -76,7 +76,7 @@ namespace GameDevAS
         {
             return false;
         }
-        public override string toString()
+        public override string toString()// this gets all the imformation to display it 
         {
             return "Factory"+"\r\nXpos: "+Xpos+"\r\nYpos: "+Ypos+"\r\nHealth: "+health+"\r\nFaction: "+Faction+"\r\nProductionRate: "+productionrate;
         }

@@ -59,7 +59,7 @@ namespace GameDevAS
             set { Symbol = value; }
         }
 
-        public MeleeUnits(int X_position, int Y_position, int Health, int Attack, int Speed, int Attack_range, int Faction, string sym, string name)
+        public MeleeUnits(int X_position, int Y_position, int Health, int Attack, int Speed, int Attack_range, int Faction, string sym, string name)// this constructor add all the imforamtion that is passed through to fill out the units imformations
         {
             Xpos = X_position;
             Ypos = Y_position;
@@ -102,7 +102,7 @@ namespace GameDevAS
 
 
         }
-        public override void Combat(Unit u)
+        public override void Combat(Unit u) // does the combat
         {
             if (u.GetType() == typeof(MeleeUnits))
             {
@@ -118,7 +118,7 @@ namespace GameDevAS
             }
 
         }
-        public override bool AttackRange(Unit u)
+        public override bool AttackRange(Unit u) // works out if the enemy unit is in range
         {
             if (u.GetType() == typeof(MeleeUnits))
             {
@@ -139,7 +139,7 @@ namespace GameDevAS
             }
             return false;
         }
-        public override Unit UnitDistance(Unit[] units)
+        public override Unit UnitDistance(Unit[] units) // this will find out which unit is the closest by looping through all the units
         {
             Unit closest = this;
             int closestDist = 50;
@@ -174,7 +174,7 @@ namespace GameDevAS
             return closest;
 
         }
-        public override bool isDead()
+        public override bool isDead() // this will return if the unit is dead or not
         {
             if (Health < 1)
             {
@@ -186,7 +186,7 @@ namespace GameDevAS
 
         }
 
-        private int DistanceTo(Unit u)
+        private int DistanceTo(Unit u) // this will find out the closest unit out of all the units
         {
             if (u.GetType() == typeof(MeleeUnits))
             {
@@ -199,7 +199,7 @@ namespace GameDevAS
                 return 0;
             }
         }
-        public Direction Directionto(Unit u)
+        public Direction Directionto(Unit u) // this will find out which direction the unit will move
         {
             if (u.GetType() == typeof(MeleeUnits))
             {
@@ -228,7 +228,7 @@ namespace GameDevAS
 
         }
 
-        public override string ToString()
+        public override string ToString()// this gets all the imformation to display it 
         {
 
             return "Name: " + Name + "\r\nFaction: " + symbol + "\r\nDamage: " + attack + "\r\nAttackRange: " + attackRange + "\r\nHealth: " + health + "\r\nSpeed: " + speed + "\r\nY postion: " + Xpos + "\r\nX postion: " + Ypos;

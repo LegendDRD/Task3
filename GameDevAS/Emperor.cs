@@ -58,7 +58,7 @@ namespace GameDevAS
             set { Symbol = value; }
         }
 
-        public Emperor(int X_position, int Y_position, int Health, int Attack, int Speed, int Attack_range, int Faction, string sym, string name)
+        public Emperor(int X_position, int Y_position, int Health, int Attack, int Speed, int Attack_range, int Faction, string sym, string name) // this constructor add all the imforamtion that is passed through to fill out the units imformations
         {
             Xpos = X_position;
             Ypos = Y_position;
@@ -196,7 +196,7 @@ namespace GameDevAS
                 return 0;
             }
         }
-        public Direction Directionto(Unit u)
+        public Direction Directionto(Unit u) // this changes the directions of the unit
         {
             if (u.GetType() == typeof(Emperor))
             {
@@ -225,7 +225,7 @@ namespace GameDevAS
 
         }
 
-        public override string ToString()
+        public override string ToString()// this gets all the imformation to display it 
         {
 
             return "Name: " + Name + "\r\nFaction: " + symbol + "\r\nDamage: " + attack + "\r\nAttackRange: " + attackRange + "\r\nHealth: " + health + "\r\nSpeed: " + speed + "\r\nY postion: " + Xpos + "\r\nX postion: " + Ypos;

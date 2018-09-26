@@ -62,7 +62,7 @@ namespace GameDevAS
             set { Symbol = value; }
         }
 
-        public ResourceBuilding(int X_position, int Y_position, int Health, int Faction, string Symbol, int rt, int rpt, int rr)
+        public ResourceBuilding(int X_position, int Y_position, int Health, int Faction, string Symbol, int rt, int rpt, int rr)// this constructor add all the imforamtion that is passed through to fill out the units imformations
         {
             Xpos = X_position;
             Ypos = Y_position;
@@ -78,7 +78,7 @@ namespace GameDevAS
         {
             return false;
         }
-        public override string toString()
+        public override string toString() // this gets all the imformation to display it 
         {
             return "Symbol "+symbol+"\r\nXpos: "+Xpos+"\r\nYpos "+Ypos ;
         }
